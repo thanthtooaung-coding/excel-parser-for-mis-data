@@ -145,7 +145,7 @@ function App() {
   return (
     <div className="container">
       <h1>📈 Excel to SQL Generator for MIS Reports</h1>
-      <p>Upload your `Yangon Region MIS Reports.xlsx` file. The tool will generate an SQL `INSERT` query for each sheet found.</p>
+      <p>Upload your `xxx MIS Reports.xlsx` file. The tool will generate an SQL `INSERT` query for each sheet found.</p>
       
       <input type="file" accept=".xlsx, .xls" onChange={handleFileUpload} />
       
